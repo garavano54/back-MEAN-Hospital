@@ -11,7 +11,7 @@ const login = async(req, res = response) => {
 
 
     try {
-        console.log(req.body);
+        // console.log(req.body);
         // Verificar email
         const usuarioDB = await Usuario.findOne({ email });
 
